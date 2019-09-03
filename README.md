@@ -7,6 +7,8 @@ To optimize BeagleBone for education, BeagleBone Blue was created that integrate
 
 BeagleBone Blue's legacy is primarily from contributions to BeagleBone Black robotics by [UCSD Flow Control and Coordinated Robotics Lab](http://robotics.ucsd.edu/), [Strawson Design](http://www.strawsondesign.com/), [Octavo Systems](http://octavosystems.com), [WowWee](http://www.wowwee.com/mip/), [National Instruments LabVIEW](http://www.ni.com/labview/) and of course the [BeagleBoard.org Foundation](https://beagleboard.org/about).
 
+![](OSHW_mark_US000064.png)
+
 # Terms
 These design materials are *NOT SUPPORTED* and *DO NOT* constitute a reference design. Only “community” support is allowed via resources at [BeagleBoard.org/discuss](https://beagleboard.org/discuss).
 
