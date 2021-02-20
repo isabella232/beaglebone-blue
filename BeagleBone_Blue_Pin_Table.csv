@@ -53,11 +53,11 @@ GND,GND,"1,2",,,,GND,,,,,,,
 PWR,PWR,9,,,,PWR_BUT,,,,,,,
 RESET,RESET,10,A10,,,Reset Out,,,,,,,
 UART4_RX (dsm2),UART4_RX (dsm2),11,T17,UART4_RXD,UART4_RXD,gpmc_wait0,mii2_crs,gpmc_csn4,rmii2_crs_dv,mmc1_sdcd,pr1_mii1_col,uart4_rxd,gpio0[30]
-***A2DP_CLOCK,green,12,U18,MCASP0_ACLKR,GPIO1_28,gpmc_be1n,mii2_col,gpmc_csn6,mmc2_dat3,gpmc_dir,pr1_mii1_rxlink,mcasp0_aclkr,gpio1[28]
+***A2DP_CLOCK,MDIR_1A,12,U18,MCASP0_ACLKR,GPIO1_28,gpmc_be1n,mii2_col,gpmc_csn6,mmc2_dat3,gpmc_dir,pr1_mii1_rxlink,mcasp0_aclkr,gpio1[28]
 MDIR_1B,MDIR_1B,13,U17,GPIO0_31,UART4_TXD,gpmc_wpn,mii2_rxerr,gpmc_csn5,rmii2_rxerr,mmc2_sdcd,pr1_mii1_txen,uart4_txd,gpio0[31]
 PWM_1A (Mot 1),PWM_1A (Mot 1),14,U14,EHRPWM1A,EHRPWM1A,gpmc_a2,mii2_txd3,rgmii2_td3,mmc2_dat1,gpmc_a18,pr1_mii1_txd2,ehrpwm1A,gpio1[18]
 MDIR_2A,MDIR_2A,15,R13,GPIO1_16,GPIO1_16,gpmc_a0,gmii2_txen,rmii2_tctl,mii2_txen,gpmc_a16,pr1_mii_mt1_clk,ehrpwm1_tripzone_input,gpio1[16]
-,green,,T13,GPIO2_0,GPIO1_16,,,,,,,,
+MDIR_1A,green,,T13,GPIO2_0,GPIO1_16,,,,,,,,
 PWM_1B (Mot 2),PWM_1B (Mot 2),16,T14,EHRPWM1B,EHRPWM1B,gpmc_a3,mii2_txd2,rgmii2_td2,mmc2_dat2,gpmc_a19,pr1_mii1_txd1,ehrpwm1B,f
 I2C1_SCL (external),I2C1_SCL (external),17,A16,I2C1_SCL,I2C1_SCL,spi0_cs0,mmc2_sdwp,I2C1_SCL,ehrpwm0_synci,,pr1_edio_data_in1,pr1_edio_data_out1,gpio0[5]
 I2C1_SDA (external),I2C1_SDA (external),18,B16,I2C1_SDA,I2C1_SDA,spi0_d1,mmc1_sdwp,I2C1_SDA,ehrpwm0_tripzone,,pr1_edio_data_in0,pr1_edio_data_out0,gpio0[4]
@@ -70,7 +70,7 @@ UART1_TX,UART1_TX,24,D15,UART1_TXD,UART1_TXD,uart1_txd,mmc2_sdwp,dcan1_rx,I2C1_S
 IMU-INT,IMU-INT,25,A14,GPIO3_21,GPIO3_21,mcasp0_ahclkx,eQEP0_strobe,mcasp0_axr3,mcasp1_axr1,EMU4_mux2,pr1_pru0_pru_r30_7,pr1_pru0_pru_r31_7,gpio3[21]
 UART1_RX,UART1_RX,26,D16,UART1_RXD,UART1_RXD,uart1_rxd,mmc1_sdwp,dcan1_tx,I2C1_SDA,,pr1_uart0_rxd,pr1_pru1_pru_r31_16,gpio0[14]
 QEP_1B,QEP_1B,27,C13,EQEP0B_IN,GPIO3_19,mcasp0_fsr,eQEP0B_in,mcasp0_axr3,mcasp1_fsx,EMU2_mux2,pr1_pru0_pru_r30_5,pr1_pru0_pru_r31_5,gpio3[19]
-***MDIR_1A,yellow,28,C12,GPIO3_17,SPI1_CS0,mcasp0_ahclkr,ehrpwm0_synci,mcasp0_axr2,spi1_cs0,eCAP2_in_PWM2_out,pr1_pru0_pru_r30_3,pr1_pru0_pru_r31_3,gpio3[17]
+,yellow,28,C12,GPIO3_17,SPI1_CS0,mcasp0_ahclkr,ehrpwm0_synci,mcasp0_axr2,spi1_cs0,eCAP2_in_PWM2_out,pr1_pru0_pru_r30_3,pr1_pru0_pru_r31_3,gpio3[17]
 SPI1_MISO,SPI1_MISO,29,B13,SPI1_D0,SPI1_D0,mcasp0_fsx,ehrpwm0B,,spi1_d0,mmc1_sdcd_mux1,pr1_pru0_pru_r30_1,pr1_pru0_pru_r31_1,gpio3[15]
 SPI1_MOSI,SPI1_MOSI,30,D12,SPI1_D1,SPI1_D1,mcasp0_axr0,ehrpwm0_tripzone,,spi1_d1,mmc2_sdcd_mux1,pr1_pru0_pru_r30_2,pr1_pru0_pru_r31_2,gpio3[16]
 SPI1_SCK,SPI1_SCK,31,A13,SPI1_SCLK,SPI1_SCLK,mcasp0_aclkx,ehrpwm0A,,spi1_sclk,mmc0_sdcd_mux1,pr1_pru0_pru_r30_0,pr1_pru0_pru_r31_0,gpio3[14]
